@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation{
+    margin-top: 25px;
+    font-family: var(--font1);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left{
+    font-size: 35px;
+    display: flex;
+}
+
+.nav-left img{
+    width: 52px;
+    margin: 0px 10px;
+}
+
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0px 77px;
+    font-size: 22px;
+}
+
+.nav-left ul li{
+    list-style: none;
+    margin: 0px 14px;
+    font-family: var(--font2);
+    font-weight: lighter;
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover{
+    font-weight: bolder;
+    color: var(--main-bg-color);
+}
+
+.content{
+    display: flex;
+    height: 100%;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+}
+
+.content::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    background-image: url('./free-creative-office-vector-background.jpg');
+}
+
+.content-left{
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    z-index: 1;
+}
+
+.content-left h1{
+    padding: 12px 0px;
+}
+
+.content-left p{
+    padding: 6px;
+}
+
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img{
+    height: 355px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+
+.home-articles{
+    padding: 18px;
+    margin-top: 23px;
+    background-color: rgba(235, 243, 234, 0.493);
+    position: relative;
+}
+
+.year-box{
+    position: absolute;
+    width: 234px;
+    height: 255px;
+    right: 0px;
+    top: 100px;
+    font-size: 18px;
+}
+
+.year-box div{
+    margin: 12px 0px;
+}
+
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.home-article{
+    display: flex;
+    margin: 25px;
+}
+
+.home-article-content{
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content h3{
+    padding: 10px 0px;
+}
+
+.home-article img{
+    width: 300px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 50px;
+    flex-direction: column;
+}
+
+.footer a{
+    color: white;
+}
